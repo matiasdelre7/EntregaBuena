@@ -1,0 +1,208 @@
+* {
+    margin:0; 
+    padding:0;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+}
+#menu{ 
+    color: rgb(206, 207, 207);
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.carousel-inner{
+max-height: 500px;
+width: 100%;
+}
+.imagenes-slide{
+    object-fit: cover;
+    width: 100%;
+}
+.cointaner{
+    height: 700px;
+    width: auto;
+    background-image: url(../images/Fondoindex.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.cointaner h1 {
+    font-size: 50px;   
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}    
+.cointaner h2 {
+    font-size: 20px;
+    text-shadow: 0 0 10px black;
+    margin-bottom: 10px;
+}
+.btn {
+    color: #504f4f;
+    padding: 10 24px;
+    font-size: 20px;
+    text-decoration: none;
+    background: #c4baba;
+    transition: 0.5s all;
+}
+.btn:hover{
+    opacity: 0.1;
+}
+.pie-pagina{
+    width: auto;
+}
+.red-social{
+    background-color:rgb(137, 143, 143);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: auto;
+}
+.red-social ul li{
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+}
+.red-social ul li a{
+    display: block;
+    padding: 0 20px;
+    background-color: rgb(168, 168, 168);
+    color: #f1f1f1;
+    line-height: 50px;
+    font-size: 15px;
+    box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+.grupo-2 {
+    display: block;
+    padding: 0 20px;
+    background-color: rgb(168, 168, 168);
+    color: #f1f1f1;
+    line-height: 50px;
+    font-size: 15px;
+    box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+/*----------------PAGINA NOSOTROS-------------------------------*/
+.titulo-nosotros h1 {
+        text-align: center;
+        font-family:sans-serif;
+        font-size: 40px;
+}
+.titulo-nosotros h1:hover{
+            background-color: rgb(138, 198, 248);
+            transition: 1s;    
+}
+.texto-nosotros {
+    border: 10px solid #c4baba;
+    width: 100%;
+    background-image: url(../images/fondo-nosotros.jpg);   
+    background-size: cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.texto-nosotros p{
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: #ffffff;
+font-size: 30px;
+margin: 10px 10px 10px 15px;
+}
+.texto-nosotros h2{
+    color: #f1f1f1;
+    margin-top: 50px; 
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 35px;
+}
+.slide {
+    margin-top: 15px;
+}
+
+.slide img {
+    height: 50vh;
+    object-fit: contain;
+}
+
+/*----------------PAGINA CONTACTO--------------------------------*/
+.titulo-contacto h1{
+    text-align: center;
+    margin-top: 25px;
+    font-family:sans-serif;
+    font-size: 50px;
+    transition: 0.5all;
+    border: #24303c solid;
+    background-color: #24303c;
+    color: #f1f1f1;
+}
+.titulo-contacto:hover{
+    opacity: 0.1;
+}
+.form{
+    height: 500px;
+    width: 500px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    box-shadow: 7px 13px 37px rgb(0, 0, 0);
+    margin-bottom: 90px;
+    margin-top: 30px;
+}
+.form h4{
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    font-size: 18px;
+}
+.form .botons{
+    width: 100%;
+    background: #1f53c5;
+    border: none; 
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+}
+
+@media screen and (max-width: 800px){
+    .red-social ul li{
+        display:grid;
+        grid-template-columns: repeat (1, 1fr);
+        margin: 10px;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .form {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    box-shadow: 7px 13px 37px rgb(0, 0, 0);
+    text-align: center;
+    }
+}
